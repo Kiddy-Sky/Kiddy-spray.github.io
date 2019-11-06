@@ -27,6 +27,11 @@ const ap = new APlayer({
         name: '厌弃',
         artist: '许廷铿',
         url: 'http://music.163.com/song/media/outer/url?id=174120.mp3',
+      },
+      {
+        name: '阁楼',
+        artist: '陈慧琳',
+        url: 'http://music.163.com/song/media/outer/url?id=213791.mp3',
       }
     ]
 });
