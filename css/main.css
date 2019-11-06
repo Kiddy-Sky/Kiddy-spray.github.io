@@ -409,7 +409,7 @@ code {
   font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
-  background: #222;
+  background: #ccc;
   border-radius: 2px;
   color: #036;
   padding: 2px 4px;
@@ -445,8 +445,8 @@ pre code {
   padding: 0;
 }
 .highlight figcaption {
-  background: #222;
-  color: #eaeaea;
+  background: #000;
+  color: #ababab;
   line-height: 1em;
   margin: 0;
   padding: 0.5em;
@@ -1252,7 +1252,7 @@ pre .javascript .function {
   transform: rotateZ(360deg);
 }
 .site-author-name {
-  color: #002736;
+  color: #036;
   font-weight: 600;
   margin: 0;
   text-align: center;
@@ -1277,7 +1277,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #32f9f1;
+  background: #9659b6;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1977,7 +1977,7 @@ pre .javascript .function {
 }
 .posts-expand .post-title-link {
   border-bottom: none;
-  color: #555;
+  color: #001836;
   display: inline-block;
   position: relative;
   vertical-align: top;
