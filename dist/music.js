@@ -1,6 +1,8 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-    fixed: true,
+    //fixed: true,
+    //theme: #000000,
+    mini: true,
     autoplay: true,
     audio: [
       {
