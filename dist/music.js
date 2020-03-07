@@ -8,13 +8,15 @@ const ap = new APlayer({
       {
         name: "斯德哥尔摩情人",
         artist: '陈奕迅',
-        url: 'https://kiddy-spray.github.io/songs/斯德哥尔摩情人 -- 陈奕迅 .mp3',
+        url: '/songs/斯德哥尔摩情人 -- 陈奕迅 .mp3', 
+      #  url: 'https://kiddy-spray.github.io/songs/斯德哥尔摩情人 -- 陈奕迅 .mp3',
       #  url: 'http://music.163.com/song/media/outer/url?id=27483204.mp3',
       },
       {
         name: '少女的祈祷',
         artist: '杨千嬅',
-        url: 'http://music.163.com/song/media/outer/url?id=329593497.mp3',
+        url: 'https://kiddy-spray.github.io/songs/少女的祈祷 -- 杨千嬅 .mp3',
+      #  url: 'http://music.163.com/song/media/outer/url?id=329593497.mp3',
       },
       {
         name: '钟无艳',
