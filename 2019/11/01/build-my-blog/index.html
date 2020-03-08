@@ -58,7 +58,7 @@
 <meta property="og:site_name" content="青山客">
 <meta property="og:description" content="记录一下自己在Windows系統下利用GitHub简单搭建博客的过程，因为有很多不懂的地方，所以走了一些弯路。而我相信，这些问题以后我还是会犯的，所以简单记录一下，等以后又出现类似的问题找不着北的时候可以翻翻看（我太菜了">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-02-11T08:05:55.736Z">
+<meta property="og:updated_time" content="2020-03-08T05:56:48.799Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://yoursite.com/2019/11/01/build-my-blog/">
@@ -240,7 +240,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-02-11 16:05:55" itemprop="dateModified" datetime="2020-02-11T16:05:55+08:00">2020-02-11</time>
+                <time title="修改时间：2020-03-08 13:56:48" itemprop="dateModified" datetime="2020-03-08T13:56:48+08:00">2020-03-08</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -366,7 +366,7 @@
 <p>将本地改造好的博客部署到<code>GitHub</code>上后，试试用网址访问吧~</p>
 </blockquote>
 <ul>
-<li><h4 id="提示：修改文章后需要先hexo-g生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦"><a href="#提示：修改文章后需要先hexo-g生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦" class="headerlink" title="提示：修改文章后需要先hexo g生成静态文件后再hexo d部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~"></a>提示：修改文章后需要先<code>hexo g</code>生成静态文件后再<code>hexo d</code>部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~</h4></li>
+<li><h4 id="提示：修改文章后需要先hexo-c-清除-public目录下文件再hexo-g重新生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦"><a href="#提示：修改文章后需要先hexo-c-清除-public目录下文件再hexo-g重新生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦" class="headerlink" title="提示：修改文章后需要先hexo c 清除 public目录下文件再hexo g重新生成静态文件后再hexo d部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~"></a>提示：修改文章后需要先<code>hexo c</code> 清除 <code>public</code>目录下文件再<code>hexo g</code>重新生成静态文件后再<code>hexo d</code>部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~</h4></li>
 </ul>
 
     </div>
@@ -449,7 +449,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#需要的准备工作：（不懂可以多看官网的介绍，一般都有一些常见问题的解决办法，或者多百度看别人怎么解决的"><span class="nav-number">1.</span> <span class="nav-text">需要的准备工作：（不懂可以多看官网的介绍，一般都有一些常见问题的解决办法，或者多百度看别人怎么解决的</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Hexo安装过程："><span class="nav-number">2.</span> <span class="nav-text">Hexo安装过程：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#生成静态文件吧"><span class="nav-number">3.</span> <span class="nav-text">生成静态文件吧~</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#启动服务器吧"><span class="nav-number">4.</span> <span class="nav-text">启动服务器吧~</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#换自己喜欢的主题"><span class="nav-number">5.</span> <span class="nav-text">换自己喜欢的主题~</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#接着将博客改造成自己喜欢的逼格吧"><span class="nav-number">6.</span> <span class="nav-text">接着将博客改造成自己喜欢的逼格吧~</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#准备将本地改造好的博客部署到GitHub上吧-这样就能用网址访问啦"><span class="nav-number">7.</span> <span class="nav-text">准备将本地改造好的博客部署到GitHub上吧~ 这样就能用网址访问啦~</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#提示：修改文章后需要先hexo-g生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦"><span class="nav-number"></span> <span class="nav-text">提示：修改文章后需要先hexo g生成静态文件后再hexo d部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~</span></a></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#需要的准备工作：（不懂可以多看官网的介绍，一般都有一些常见问题的解决办法，或者多百度看别人怎么解决的"><span class="nav-number">1.</span> <span class="nav-text">需要的准备工作：（不懂可以多看官网的介绍，一般都有一些常见问题的解决办法，或者多百度看别人怎么解决的</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Hexo安装过程："><span class="nav-number">2.</span> <span class="nav-text">Hexo安装过程：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#生成静态文件吧"><span class="nav-number">3.</span> <span class="nav-text">生成静态文件吧~</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#启动服务器吧"><span class="nav-number">4.</span> <span class="nav-text">启动服务器吧~</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#换自己喜欢的主题"><span class="nav-number">5.</span> <span class="nav-text">换自己喜欢的主题~</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#接着将博客改造成自己喜欢的逼格吧"><span class="nav-number">6.</span> <span class="nav-text">接着将博客改造成自己喜欢的逼格吧~</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#准备将本地改造好的博客部署到GitHub上吧-这样就能用网址访问啦"><span class="nav-number">7.</span> <span class="nav-text">准备将本地改造好的博客部署到GitHub上吧~ 这样就能用网址访问啦~</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#提示：修改文章后需要先hexo-c-清除-public目录下文件再hexo-g重新生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦"><span class="nav-number"></span> <span class="nav-text">提示：修改文章后需要先hexo c 清除 public目录下文件再hexo g重新生成静态文件后再hexo d部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~</span></a></div>
       </div>
       <!--/noindex-->
 

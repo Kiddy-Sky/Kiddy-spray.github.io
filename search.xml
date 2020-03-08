@@ -101,7 +101,7 @@
 <p>将本地改造好的博客部署到<code>GitHub</code>上后，试试用网址访问吧~</p>
 </blockquote>
 <ul>
-<li><h4 id="提示：修改文章后需要先hexo-g生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦"><a href="#提示：修改文章后需要先hexo-g生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦" class="headerlink" title="提示：修改文章后需要先hexo g生成静态文件后再hexo d部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~"></a>提示：修改文章后需要先<code>hexo g</code>生成静态文件后再<code>hexo d</code>部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~</h4></li>
+<li><h4 id="提示：修改文章后需要先hexo-c-清除-public目录下文件再hexo-g重新生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦"><a href="#提示：修改文章后需要先hexo-c-清除-public目录下文件再hexo-g重新生成静态文件后再hexo-d部署到-GitHub-上，不然文章的内容可能和你预想中的不一样哦" class="headerlink" title="提示：修改文章后需要先hexo c 清除 public目录下文件再hexo g重新生成静态文件后再hexo d部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~"></a>提示：修改文章后需要先<code>hexo c</code> 清除 <code>public</code>目录下文件再<code>hexo g</code>重新生成静态文件后再<code>hexo d</code>部署到 GitHub 上，不然文章的内容可能和你预想中的不一样哦~</h4></li>
 </ul>
 ]]></content>
       <categories>

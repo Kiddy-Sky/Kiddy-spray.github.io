@@ -3,7 +3,8 @@ const ap = new APlayer({
     //fixed: true,
     //theme: #000000,
     mini: true,
-    autoplay: true,
+    autoplay: true,  //自动播放
+    order: 'random', //随机播放
     audio: [
       {
         name: "斯德哥尔摩情人",
