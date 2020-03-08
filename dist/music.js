@@ -8,7 +8,7 @@ const ap = new APlayer({
       {
         name: "斯德哥尔摩情人",
         artist: '陈奕迅',
-        url: 'https://Kiddy-spray.github.io/dist/songs/斯德哥尔摩情人 -- 陈奕迅 .mp3', 
+        url: 'https://kiddy-spray.github.io/dist/songs/斯德哥尔摩情人%20--%20陈奕迅%20.mp3', 
       # url: 'http://music.163.com/song/media/outer/url?id=27483204.mp3',
       },
       {
